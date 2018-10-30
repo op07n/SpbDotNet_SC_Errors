@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpbDotNet_SC_Errors", "SpbDotNet_SC_Errors\SpbDotNet_SC_Errors.csproj", "{DF408EA4-98A9-4565-BE4B-E172BA21BFFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpbDotNet_SC_Errors_Tests", "SpbDotNet_SC_Errors_Tests\SpbDotNet_SC_Errors_Tests.csproj", "{E54BA527-51AC-41B7-BA96-417D376F38BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF408EA4-98A9-4565-BE4B-E172BA21BFFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF408EA4-98A9-4565-BE4B-E172BA21BFFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF408EA4-98A9-4565-BE4B-E172BA21BFFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF408EA4-98A9-4565-BE4B-E172BA21BFFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E54BA527-51AC-41B7-BA96-417D376F38BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54BA527-51AC-41B7-BA96-417D376F38BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54BA527-51AC-41B7-BA96-417D376F38BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54BA527-51AC-41B7-BA96-417D376F38BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5083D42D-3177-4E73-BB59-5F9782BFEC81}
+	EndGlobalSection
+EndGlobal
