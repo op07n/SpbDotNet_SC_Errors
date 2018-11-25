@@ -2,7 +2,7 @@
 {
     public class Worker
     {
-        public int GetCountsSum(TrackedEntity a, UnTrackedEntity b)
+        public static int GetCountsSum(TrackedEntity a, UnTrackedEntity b)
         {
             return a.Count + b.Count;
         }
