@@ -9,11 +9,11 @@ namespace SpbDotNet_SC_Errors_Tests
         [Fact]
         public void GetCountSum_Test()
         {
-            var a = new TrackedEntity {Count = 5};
-            var b = new UnTrackedEntity { Count = 15 };
+            var ps = new Person { FirstName = "John", LastName = "Doe", BirthDate = new DateTime(1990, 1, 1) };
+            var pf = new Profession { Name = "DevOps engineer", Description = "Do all of the stuff you need" };
 
-            var result = Worker.GetCountsSum(a, b);
-            Assert.True(result == a.Count + b.Count);
+            var result = Worker.GetPersonProfession(ps, pf);
+            Assert.Equal(result, $"{ps.FirstName} {ps.LastName} ({ps.BirthDate}) is a {pf.Name}");
         }
     }
 }

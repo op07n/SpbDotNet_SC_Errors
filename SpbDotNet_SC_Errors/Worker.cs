@@ -2,9 +2,11 @@
 {
     public static class Worker
     {
-        public static int GetCountsSum(TrackedEntity a, UnTrackedEntity b)
+        public static string GetPersonProfession(
+            Person ps, 
+            Profession pf)
         {
-            return a.Count + b.Count;
+            return $"{ps.FirstName} {ps.LastName} ({ps.BirthDate}) is a {pf.Name}";
         }
     }
 }
