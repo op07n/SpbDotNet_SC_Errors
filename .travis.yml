@@ -10,6 +10,9 @@ mono: none
 script:
   - sudo snap alias dotnet-sdk.dotnet dotnet
   - dotnet --version
-  - dotnet build
-  - dotnet test ./SpbDotNet_SC_Errors_Tests/SpbDotNet_SC_Errors_Tests.csproj
+  # - dotnet build
+  - dotnet new winforms -o MyWinFormsApp
+  # - cd MyWinFormsApp
+  # - dotnet run  
+
 
